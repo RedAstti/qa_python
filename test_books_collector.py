@@ -2,7 +2,6 @@
     # чтобы тесты были независимыми в каждом из них создавай отдельный экземпляр класса BooksCollector()
 
 import pytest
-from main import BooksCollector
 
 class TestBooksCollector:
 
