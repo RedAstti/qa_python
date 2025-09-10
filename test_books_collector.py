@@ -42,7 +42,7 @@ class TestBooksCollector:
         collector.set_book_genre("Оно", "Поэзия")
         assert collector.books_genre["Оно"] == ""
 
-   # --- get_book_genre ---
+    # --- get_book_genre ---
     def test_get_book_genre_returns_correct_genre(self, collector):
         """Метод get_book_genre возвращает жанр по названию книги"""
         collector.books_genre["Ревизор"] = "Комедии"
