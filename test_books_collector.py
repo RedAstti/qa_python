@@ -1,6 +1,3 @@
-    # напиши свои тесты ниже
-    # чтобы тесты были независимыми в каждом из них создавай отдельный экземпляр класса BooksCollector()
-
 import pytest
 
 class TestBooksCollector:
@@ -94,3 +91,4 @@ class TestBooksCollector:
         collector.favorites = ["1984", "Война и мир"]
         result = collector.get_list_of_favorites_books()
         assert result == ["1984", "Война и мир"]
+
