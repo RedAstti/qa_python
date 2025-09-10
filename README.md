@@ -1,5 +1,4 @@
 # qa_python
-# qa_python
 # BooksCollector — проект для практики Pytest
 
 ## 📚 Описание
