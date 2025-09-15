@@ -92,3 +92,16 @@ class TestBooksCollector:
         result = collector.get_list_of_favorites_books()
         assert result == ["1984", "Война и мир"]
 
+    # --- get_books_genre ---
+    def test_get_books_genre_returns_full_dict(self, collector):
+        """Метод get_books_genre возвращает словарь всех книг с жанрами"""
+        collector.books_genre = {
+            "1984": "Фантастика",
+            "Ревизор": "Комедии"
+        }
+        result = collector.get_books_genre()
+        assert result == {
+            "1984": "Фантастика",
+            "Ревизор": "Комедии"
+        }
+
